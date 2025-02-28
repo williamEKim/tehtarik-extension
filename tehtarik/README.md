@@ -14,6 +14,13 @@ TehTarik is a custom programming language used in CS152 course in UCR, and this 
 ## Contributing
 Feel free to contribute to the project! Open an issue or submit a pull request.
 
+## Updates
+- `1.1.0`: VS Code version requirement -> *^1.73.0*
+- `1.1.3`: 
+    - Line Commenting `//` -> `#`
+    - Extension Images/Icon Uploaded: 
+        1. `https://github.com/williamEKim/tehtarik-extension/blob/main/tehtarik/images/icon.png`
+        2. `https://github.com/williamEKim/tehtarik-extension/blob/main/tehtarik/icons/tehtarik-icon.png`
 ---
 
 Enjoy coding in TehTarik! ☕✨
