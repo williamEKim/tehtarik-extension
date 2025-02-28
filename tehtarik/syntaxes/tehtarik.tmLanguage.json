@@ -11,10 +11,36 @@
 	],
 	"repository": {
 		"keywords": {
-			"patterns": [{
-				"name": "keyword.control.tehtarik",
-				"match": "\\b(if|while|for|return)\\b"
-			}]
+			"patterns": [
+				{
+					"name": "keyword.control.tehtarik",
+					"match": "\\b(if|else|while|for|return)\\b(?!\\s*#)"
+				},
+				{
+					"name": "storage.type.tehtarik",
+					"match": "\\b(int|float|char|double)\\b"
+				},
+				{
+					"name": "constant.numeric.tehtarik",
+					"match": "\\b\\d+\\b"
+				},
+				{
+					"name": "variable.tehtarik",
+					"match": "\\b[a-zA-Z_]\\w*\\b"
+				},
+				{
+					"name": "operator.tehtarik",
+					"match": "[+\\-*/%=<>!]+"
+				},
+				{
+					"name": "punctuation.bracket.tehtarik",
+					"match": "[{}()\\[\\]]"
+				},
+				{
+					"name": "comment.line.tehtarik",
+					"match": "#.*"
+				}
+			]			
 		},
 		"strings": {
 			"name": "string.quoted.double.tehtarik",
