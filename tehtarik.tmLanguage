@@ -1,0 +1,17 @@
+{
+
+    "scopeName": "*.tt",
+
+    "patterns": [
+
+        { "match": "\\b(if|else|while)\\b", "name": "keyword" },
+
+        { "match": "\\d+", "name": "number" },
+
+        { "match": "\"(.*?)\"", "name": "string" },
+
+        { "match": "//.*", "name": "comment" }
+
+    ]
+
+}
