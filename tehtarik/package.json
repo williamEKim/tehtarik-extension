@@ -1,25 +1,32 @@
 {
-  "name": "tehtarik",
-  "displayName": "tehtarik",
-  "description": "",
-  "version": "0.0.1",
+  "name": "tehtarik",  
+  "displayName": "TehTarik Language Support",
+  "publisher": "wkim",
+  "description": "Syntax highlighting for the TehTarik programming language.",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.97.0"
   },
-  "categories": [
-    "Programming Languages"
-  ],
+  "categories": ["Programming Languages"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/williamEKim/tehtarik-extension.git"
+  },
   "contributes": {
-    "languages": [{
-      "id": "tehtarik",
-      "aliases": ["TehTarik", "tehtarik"],
-      "extensions": [".tt"],
-      "configuration": "./language-configuration.json"
-    }],
-    "grammars": [{
-      "language": "tehtarik",
-      "scopeName": "source.tehtarik",
-      "path": "./syntaxes/tehtarik.tmLanguage.json"
-    }]
+    "languages": [
+      {
+        "id": "tehtarik",
+        "aliases": ["TehTarik"],
+        "extensions": [".tt"],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "tehtarik",
+        "scopeName": "source.tehtarik",
+        "path": "./syntaxes/tehtarik.tmLanguage.json"
+      }
+    ]
   }
 }
