@@ -1,0 +1,13 @@
+{
+    "iconDefinitions": {
+        "tehtarikIcon": {
+            "iconPath": "./icons/tehtarik-icon.png"
+        }
+    },
+    "fileExtensions": {
+        "tt": "tehtarikIcon"
+    },
+    "languageIds": {
+        "tehtarik": "tehtarikIcon"
+    }
+}
