@@ -6,7 +6,7 @@
   "description": "Syntax highlighting for the TehTarik programming language.",
   "version": "1.0.0",
   "engines": {
-    "vscode": "^1.97.0"
+    "vscode": "^1.73.0"
   },
   "categories": ["Programming Languages"],
   "repository": {
