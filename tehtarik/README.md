@@ -21,6 +21,7 @@ Feel free to contribute to the project! Open an issue or submit a pull request.
     - Extension Images/Icon Uploaded: 
         1. `https://github.com/williamEKim/tehtarik-extension/blob/main/tehtarik/images/icon.png`
         2. `https://github.com/williamEKim/tehtarik-extension/blob/main/tehtarik/icons/tehtarik-icon.png`
+- `1.1.5`: fixed the icon error
 ---
 
 Enjoy coding in TehTarik! ☕✨
