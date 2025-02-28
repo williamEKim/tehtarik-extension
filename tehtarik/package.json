@@ -1,0 +1,25 @@
+{
+  "name": "tehtarik",
+  "displayName": "tehtarik",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.97.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "tehtarik",
+      "aliases": ["TehTarik", "tehtarik"],
+      "extensions": [".tt"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "tehtarik",
+      "scopeName": "source.tehtarik",
+      "path": "./syntaxes/tehtarik.tmLanguage.json"
+    }]
+  }
+}
