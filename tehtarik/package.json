@@ -2,6 +2,7 @@
   "name": "tehtarik",  
   "displayName": "TehTarik Language Support",
   "publisher": "wkim",
+  "license": "MIT",
   "description": "Syntax highlighting for the TehTarik programming language.",
   "version": "1.0.0",
   "engines": {
